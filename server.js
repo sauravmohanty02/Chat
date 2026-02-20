@@ -35,7 +35,7 @@ const botName = "Chat";
 
 
 mongoose.set('strictQuery', false);
-var res= "mongodb+srv://admin-saurav:test123@cluster0.c173uac.mongodb.net/ba2";
+
 mongoose.connect(res, { useNewUrlParser: true });
 
 
